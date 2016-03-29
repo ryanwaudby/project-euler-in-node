@@ -5,7 +5,7 @@ https://projecteuler.net/
 
 ### Running
 
-``sh
+```sh
 git clone git@github.com:ryanwaudby/project-euler-in-node.git
 cd project-euler-in-node
 npm install
