@@ -1,0 +1,4 @@
+number=$1
+padded=`printf "%03d\n" $number`
+
+node -r babel-register -r babel-polyfill problems/$padded.js
