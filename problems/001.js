@@ -1,4 +1,4 @@
-import { filter, range, sum } from 'ramda';
+import { filter, range, sum, modulo } from 'ramda';
 
-const isMultiple = n => n % 3 === 0 || n % 5 === 0;
+const isMultiple = n => modulo(n, 3) === 0 || modulo(n, 5) === 0;
 console.log(sum(filter(isMultiple, range(1, 1000))));
