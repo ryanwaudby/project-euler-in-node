@@ -3,20 +3,18 @@
 My stab at implementing the Project Euler problems from
 https://projecteuler.net/
 
-### Running
+A Docker workflow is present for build and running of the project.
+Should dependencies change in the `package.json` you will need to
+rebuild the project
+
+### Build
 
 ```sh
-git clone git@github.com:ryanwaudby/project-euler-in-node.git
+./build
 ```
 
-```sh
-cd project-euler-in-node
-```
+### Run
 
 ```sh
-npm install
-```
-
-```sh
-./run <problem> [1..999]
+./run <problem>
 ```
