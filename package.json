@@ -6,8 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Ryan Waudby",
   "license": "ISC",
+  "repository": "git@github.com:ryanwaudby/project-euler-in-node.git",
   "devDependencies": {
     "babel-cli": "^6.6.5",
     "babel-polyfill": "^6.7.4",
